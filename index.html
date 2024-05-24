@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">®TLOP</div>
+    <ul class="nav-links">
+        <li id="li1" onclick="showPage('container-inicio',this)"><a href="#inicio">Inicio</a></li>
+        <li id="li2" onclick="showPage('container-acerca',this)"><a href="#acerca" >Acerca de</a></li>
+        <li id="li3" onclick="showPage('container-servicios',this)"><a href="#servicios" >Servicios</a></li>
+        <li id="li4" onclick="showPage('container-contacto',this)"><a href="#contacto" >Contacto</a></li>
+        <span></span>
+    </ul>
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+</nav>
+<div class="container-all">
+    <div id="container-inicio" class="page active">
+        <h2>INICIO</h2>
+        <p>Animales en peligro de extinsion.</p>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.ngenespanol.com/wp-content/uploads/2024/03/estos-son-los-animales-que-no-deberias-tener-como-mascotas.jpg" alt="Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.fundacionaquae.org/wp-content/uploads/2018/10/proteger-a-los-animales.jpg" alt="Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.telemundo.com/sites/nbcutelemundo/files/styles/fit-760w/public/images/article/cover/2018/04/19/tigre-caminando.jpg?ramen_itok=iqwQftIcTf" alt="Image 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.telemundo.com/sites/nbcutelemundo/files/styles/fit-760w/public/images/article/cover/2018/04/19/tigre-caminando.jpg?ramen_itok=iqwQftIcTf" alt="Image 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.fundacionaquae.org/wp-content/uploads/2018/10/proteger-a-los-animales.jpg" alt="Image 2">
+                </div>
+
+            </div>
+            <a class="carousel-control prev" href="#" onclick="changeSlide(-1)"><</a>
+            <a class="carousel-control next" href="#" onclick="changeSlide(1)">></a>
+        </div>
+        <div class="container-description-inicio">
+            <h1>Los animales son lo importante</h1>
+            <p>Los animales desempeñan un papel fundamental en nuestro mundo y en nuestras vidas. Desde tiempos inmemoriales, han sido nuestros fieles compañeros, brindándonos amor incondicional, compañía y apoyo emocional. Su presencia nos recuerda la belleza y la diversidad de la naturaleza, y nos enseña valiosas lecciones sobre la coexistencia, la adaptación y la resiliencia.</p>
+            <br>
+            <p>Los animales desempeñan un papel fundamental en nuestro mundo y en nuestras vidas. Desde tiempos inmemoriales, han sido nuestros fieles compañeros, brindándonos amor incondicional, compañía y apoyo emocional. Su presencia nos recuerda la belleza y la diversidad de la naturaleza, y nos enseña valiosas lecciones sobre la coexistencia, la adaptación y la resiliencia.</p>
+            <br>
+            <p>Los animales desempeñan un papel fundamental en nuestro mundo y en nuestras vidas. Desde tiempos inmemoriales, han sido nuestros fieles compañeros, brindándonos amor incondicional, compañía y apoyo emocional. Su presencia nos recuerda la belleza y la diversidad de la naturaleza, y nos enseña valiosas lecciones sobre la coexistencia, la adaptación y la resiliencia.</p>
+
+        </div>
+
+    </div>
+
+    <div id="container-acerca" class="page">
+        <h2>ACERCA DE NOSOTROS</h2>
+        <p>Cuidando los animales en peligro de extension</p>
+
+        <div class="cat">
+            <div class="ear ear-left"></div>
+            <div class="ear ear-right"></div>
+            <div class="face">
+                <div class="eye eye-left"></div>
+                <div class="eye eye-right"></div>
+                <div class="nose"></div>
+                <div class="mouth"></div>
+            </div>
+            <div class="body">
+                <div class="tail"></div>
+            </div>
+        </div>
+
+        <section class="animal-preview-container">
+
+            <div id="close-preview" class="fas fa-times"></div>
+
+            <div class="animal-preview" data-target="food-1">
+                <img src="https://img.freepik.com/foto-gratis/lagarto-animal-naturaleza-multicolor-ia-generativa-primer-plano_188544-9072.jpg" alt="">
+                <h3>Pizzas y Pastas</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Kentucky Fried Chicken, conocida oficialmente por sus siglas KFC, es una cadena de restaurantes de comida rápida estadounidense especializada en pollo frito, fundada por Harland D. Sanders, que pertenece al grupo Yum! Brands.</p>
+                <a href="#" class="btn">¡Inicia Hoy Gratis!</a>
+            </div>
+
+            <div class="animal-preview" data-target="food-2">
+                <img src="https://img.freepik.com/foto-gratis/lagarto-animal-naturaleza-multicolor-ia-generativa-primer-plano_188544-9072.jpg" alt="">
+                <h3>Buffet-Restaurante</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Los servicios que presentan son Buffet-Restaurante, donde ofrecen pizzas, pastas, parrillas, buffet criollo e internacional, sin embargo la pandemia los obligó a reforzar el sistema de delivery y recojo en tienda</p>
+                <a href="#" class="btn">¡Inicia Hoy Gratis!</a>
+            </div>
+
+            <div class="animal-preview" data-target="food-3">
+                <img src="https://img.freepik.com/foto-gratis/lagarto-animal-naturaleza-multicolor-ia-generativa-primer-plano_188544-9072.jpg" alt="">
+                <h3>Pescados y Mariscos</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>CHOZA NAUTICA forma parte de una de las principales industrias alimenticias del Per� (CORPORACION FUSION 360 � mas de 28 locales y cerca de 400 colaboradores); teniendo como marcas representativas Secretos Peruanos (Comida Criolla), Pepperonis (Pizza) y Sanguchon Express (Hamburguesas y Sanguches), estando ubicadas en los Principales Centros Comerciales del Per�.</p>
+                <a href="#" class="btn">¡Inicia Hoy Gratis!</a>
+            </div>
+
+            <div class="animal-preview" data-target="food-4">
+                <img src="https://img.freepik.com/foto-gratis/lagarto-animal-naturaleza-multicolor-ia-generativa-primer-plano_188544-9072.jpg" alt="">
+                <h1></h1>
+                <div cl3>Restaurant general="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Cocina de fusión orgánica a base de productos locales y sostenibles</p>
+                <a href="#" class="btn">¡Inicia Hoy Gratis!</a>
+            </div>
+
+            <div class="animal-preview" data-target="food-5">
+                <img src="https://img.freepik.com/foto-gratis/lagarto-animal-naturaleza-multicolor-ia-generativa-primer-plano_188544-9072.jpg" alt="">
+                <h3>Pollos a la Brasa</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Don Belisario es punto de reunión de sabores, de alegría y del bitute; todo para tu disfrute.</p>
+                <a href="#" class="btn">¡Inicia Hoy Gratis!</a>
+            </div>
+
+            <div class="animal-preview" data-target="food-6">
+                <img src="https://img.freepik.com/foto-gratis/lagarto-animal-naturaleza-multicolor-ia-generativa-primer-plano_188544-9072.jpg" alt="">
+                <h3>Chifa</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Restaurante de comida chino-peruana, conocido en nuestro país como un “chifa”.</p>
+                <a href="#" class="btn">¡Inicia Hoy Gratis!</a>
+            </div>
+
+        </section>
+
+    </div>
+
+    <div id="container-servicios" class="page">
+        <h2>SERVICIOS</h2>
+        <p>Contenido de la página 3.</p>
+        <div>
+            <table id="myTable">
+                <thead>
+                <tr>
+                    <td onclick="sortTable(0)">Id</td>
+                    <td onclick="sortTable(1)">Nombre</td>
+                    <td onclick="sortTable(2)">Codigo</td>
+                    <td onclick="sortTable(3)">Dirección</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>2</td>
+                    <td>Leon</td>
+                    <td>156</td>
+                    <td>jr. relovos tared</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Aeon</td>
+                    <td>12356</td>
+                    <td>jr. relovos tared</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Peon</td>
+                    <td>1356</td>
+                    <td>jr. relovos tared</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Seon</td>
+                    <td>54</td>
+                    <td>jr. relovos tared</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>reon</td>
+                    <td>12356</td>
+                    <td>jr. relovos tared</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="container-contacto" class="page">
+        <h2>CONTACTANOS</h2>
+        <p>Contenido de la contactanos.</p>
+        <div class="container">
+            <h1>Formulario de contacto</h1>
+            <form id="contactForm">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
